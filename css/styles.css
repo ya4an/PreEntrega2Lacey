@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-top: 150px !important;
+}
+
+.formulario {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+.tituloContacto {
+    display: block;
+    position: relative;
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 46px;
+    
+}
+.camposARellenar div {
+    background-color: whitesmoke;
+    padding: 40px 150px 30px 150px;
+    display: block;
+    font-family: 'Kanit', sans-serif;
+    text-align: justify;
+    
+}
+.camposARellenar div p {
+    position: absolute;
+    display: flex;
+    text-align: end;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+
+}
